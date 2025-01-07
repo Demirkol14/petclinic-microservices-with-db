@@ -1372,6 +1372,7 @@ mkdir -p ansible/inventory
 git add .
 git commit -m 'added ansible static inventory host.ini for testing'
 git push --set-upstream origin feature/msp-16
+
 ```
 
 - Configure `test-creating-qa-automation-infrastructure` job and replace the existing script with the one below in order to test ansible by pinging static hosts.
