@@ -1865,7 +1865,7 @@ aws s3 ls s3://petclinic-helm-charts-<put-your-name>/stable/myapp/
 
 ```bash
 helm repo ls
-AWS_REGION=us-east-1 helm repo add stable-petclinicapp s3://petclinic-helm-charts-<put-your-name>/stable/myapp/
+AWS_REGION=us-east-1 helm repo add stable-petclinicapp s3://petclinic-helm-charts-deco/stable/myapp/
 ```
 
 * Update `version` and `appVersion` field of `k8s/petclinic_chart/Chart.yaml` file as below for testing.
