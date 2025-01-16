@@ -2823,7 +2823,7 @@ git push origin release
 - Source Code Management: Git
       Repository URL: https://github.com/[your-github-account]/petclinic-microservices.git
 - Branches to build:
-      Branch Specifier (blank for 'any'): */release
+      Branch Specifier (blank for 'any'):   
 - Pipeline:
       Script Path: jenkins/jenkinsfile-petclinic-weekly-qa
 ```
@@ -3067,7 +3067,7 @@ From ACM            : *.clarusway.us   # change with your dns name
 * Install RKE, the Rancher Kubernetes Engine, [Kubernetes distribution and command-line tool](https://rancher.com/docs/rke/latest/en/installation/)) on Jenkins Server.
 
 ```bash
-curl -SsL "https://github.com/rancher/rke/releases/download/v1.5.0/rke_linux-amd64" -o "rke_linux-amd64"
+curl -SsL "https://github.com/rancher/rke/releases/download/v1.5.8/rke_linux-amd64" -o "rke_linux-amd64"
 sudo mv rke_linux-amd64 /usr/local/bin/rke
 chmod +x /usr/local/bin/rke
 rke --version
