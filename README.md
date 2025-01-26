@@ -3153,7 +3153,7 @@ kubectl create namespace cattle-system
 ```bash
 helm install rancher rancher-stable/rancher --version 2.8.1 \
   --namespace cattle-system \
-  --set hostname=rancher.clarusway.us \
+  --set hostname=ranchertr.devopsdemirkol.com \
   --set tls=external \
   --set replicas=1 \
   --set global.cattle.psp.enabled=false
